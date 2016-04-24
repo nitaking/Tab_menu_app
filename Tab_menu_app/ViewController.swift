@@ -8,8 +8,7 @@
 
 import UIKit
 
-//@UIApplicationMain
-class ViewController: UIViewController, UIAccelerometerDelegate {
+class ViewController: UIViewController  {
 
     override func viewDidLoad() {
         super.viewDidLoad()
