@@ -9,12 +9,15 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-    
+        
     init() {
         super.init(nibName: nil, bundle: nil)
         
         // Viewの背景色をCyanに設定する.
         self.view.backgroundColor = UIColor.cyanColor()
+        
+        //tabBarItemのアイコンを設定する
+        self.tabBarController?.tabBarItem.image = UIImage(named: "home")
         
         //tabBarItemのアイコンをFeaturedに、タグを1と定義する.
         self.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Featured, tag: 1)
