@@ -101,12 +101,12 @@
 		742B279E1CCCA33D008B1DBE /* Tab_menu_app */ = {
 			isa = PBXGroup;
 			children = (
-				742B279F1CCCA33D008B1DBE /* AppDelegate.swift */,
 				742B27A11CCCA33D008B1DBE /* ViewController.swift */,
 				742B27A31CCCA33D008B1DBE /* Main.storyboard */,
 				742B27A61CCCA33D008B1DBE /* Assets.xcassets */,
 				742B27A81CCCA33D008B1DBE /* LaunchScreen.storyboard */,
 				742B27AB1CCCA33D008B1DBE /* Info.plist */,
+				742B279F1CCCA33D008B1DBE /* AppDelegate.swift */,
 				742B27CD1CCCA477008B1DBE /* FirstViewController.swift */,
 				742B27CF1CCCA4C3008B1DBE /* SecondViewController.swift */,
 			);
